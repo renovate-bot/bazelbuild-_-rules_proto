@@ -1,4 +1,4 @@
-load("@rules_cc//cc:defs.bzl", "cc_library")
+load("//third_party/bazel_rules/rules_cc/cc:cc_library.bzl", "cc_library")
 
 cc_library(
     name = "workspace_constants",

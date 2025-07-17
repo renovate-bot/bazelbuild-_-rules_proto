@@ -1,5 +1,5 @@
-load("@rules_cc//cc:defs.bzl", "cc_test")
 load("//proto:defs.bzl", "proto_descriptor_set", "proto_library")
+load("//third_party/bazel_rules/rules_cc/cc:cc_test.bzl", "cc_test")
 
 proto_library(
     name = "empty_proto_library",
